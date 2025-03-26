@@ -1,0 +1,42 @@
+# Beryllium
+
+spacing         = 2
+hide_ascii      = false
+key_color       = "Green"
+separator       = "->"
+separator_color = "Cyan"
+
+[box]
+border          = "rounded"
+visible         = false
+
+[palette]
+type            = "Dark"
+glyph           = "○"
+spacing         = 1
+visible         = true
+
+[bar]
+glyph           = "○"
+hide_delimiters = true
+visible         = true
+
+[box.inner_margin]
+x               = 1
+y               = 1
+
+[keys]
+host = " host"
+machine = " machine"
+kernel = " kernel"
+distro = " distro"
+wm = " wm"
+packages = " packages"
+terminal = " terminal"
+uptime = "󱑎 uptime"
+battery = "󰁹 battery"
+disk_space = " disk space"
+
+[custom_ascii]
+color           = "Green"
+path            = "~/.config/macchina/pokeball.txt"

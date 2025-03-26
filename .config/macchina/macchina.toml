@@ -1,0 +1,14 @@
+theme = "ArvyGruvbox"
+
+show = [
+  "Host",
+  "Machine",
+  "Kernel",
+  "Distribution",
+  "WindowManager",
+  "Terminal",
+  "Packages",
+  "Uptime",
+  "Battery",
+  "DiskSpace"
+]
